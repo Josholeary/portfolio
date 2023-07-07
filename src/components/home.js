@@ -85,7 +85,7 @@ const Home = () => {
               both internal organization or public-facing software.
             </Typography>
             <Box
-              sx={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}
+              sx={{ width: "100%", marginTop: "40px", marginBottom: "40px" }}
             >
               <LinearProgress
                 variant="buffer"
@@ -93,7 +93,7 @@ const Home = () => {
                 valueBuffer={buffer}
               />
             </Box>
-
+            <Divider />
             <Typography
               gutterBottom
               variant="h3"
@@ -147,7 +147,7 @@ const Home = () => {
                   color="textSecondary"
                   align="left"
                 >
-                  Rate of preventable cyber attacks:{" "}
+                  Percentage of avoidable cyber attacks:{" "}
                   <Typography
                     variant="h4"
                     sx={{ fontWeight: "bold", color: "white" }}
@@ -155,6 +155,53 @@ const Home = () => {
                     {" "}
                     95%{" "}
                   </Typography>
+                </Typography>
+              </Grid>
+            </Grid>
+            <Typography
+              gutterBottom
+              variant="h6"
+              color="textSecondary"
+              align="left"
+              marginTop={2}
+            >
+              You can trust us to ensure your enterprise systems stay safe from
+              cyber criminals. We actively detect vulnerabilities in your
+              systems and software that a real hacker would seek to attack and
+              patch them. By reviewing your operations we can educate your
+              organizations employees how to maintain security best practices
+              and prevent internal human errors from being exploited.
+            </Typography>
+
+            <Divider />
+
+            <Typography
+              gutterBottom
+              variant="h3"
+              align="left"
+              marginBottom={5}
+              marginTop={5}
+            >
+              Check out:
+            </Typography>
+
+            <Grid container textAlign="center" justifyContent="space-between">
+              <Grid xs={4} item>
+                <Typography gutterBottom variant="h4" align="center">
+                  {" "}
+                  About Us{" "}
+                </Typography>
+              </Grid>
+              <Grid xs={4} item>
+                <Typography gutterBottom variant="h4" align="center">
+                  {" "}
+                  Our Projects{" "}
+                </Typography>
+              </Grid>
+              <Grid xs={4} item>
+                <Typography gutterBottom variant="h4" align="center">
+                  {" "}
+                  Contact Us{" "}
                 </Typography>
               </Grid>
             </Grid>

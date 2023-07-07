@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
+import icon from "../static/icon.png";
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -25,6 +26,10 @@ const Header = () => {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
+            <img
+              src={icon}
+              style={{ height: "40px", width: "40px", marginRight: "10px" }}
+            ></img>
             <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
               J. O'Leary
             </Typography>
