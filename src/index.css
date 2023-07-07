@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background-color: black;
+  background-size: cover;
+  padding:0;
+  margin:0;
+  height: 150vh;
+}
+
+.home {
+  background-image: url("./static/portbg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 68vh;
+}
